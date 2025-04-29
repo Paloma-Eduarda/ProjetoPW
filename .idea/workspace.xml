@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="iniciando projeto">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="Implementando as páginas HTML">
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/CadastroClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/CadastroProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/CarrinhoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/ListaProdutosAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/ListaProdutosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/Docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/Docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/ExemploDeployApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/ExemploDeployApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/controller/BasicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/controller/BasicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Logista.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Logista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -44,10 +43,10 @@
     &quot;accountId&quot;: &quot;be281e81-7c30-41ce-83c1-8bb4f56ae5a8&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -57,32 +56,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.ExemploDeploy/Docker-compose.yml: Compose Deployment.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.ExemploDeployApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/paloma/IdeaProjects/ProjetoPW/ExemploDeploy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Docker.ExemploDeploy/Docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ExemploDeployApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/paloma/IdeaProjects/ProjetoPW/ExemploDeploy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.ExemploDeployApplication">
     <configuration name="ExemploDeployApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
@@ -109,7 +109,9 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -137,7 +139,9 @@
       <workItem from="1745368122919" duration="553000" />
       <workItem from="1745368748008" duration="3423000" />
       <workItem from="1745440307895" duration="394000" />
-      <workItem from="1745443156813" duration="2317000" />
+      <workItem from="1745443156813" duration="4698000" />
+      <workItem from="1745599829065" duration="4268000" />
+      <workItem from="1745888631206" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <option name="closed" value="true" />
@@ -155,7 +159,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745368662090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="iniciando projeto">
+      <option name="closed" value="true" />
+      <created>1745445925184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745445925184</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementando as páginas HTML">
+      <option name="closed" value="true" />
+      <created>1745639440374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745639440374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="iniciando projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="iniciando projeto" />
+    <MESSAGE value="Implementando as páginas HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando as páginas HTML" />
   </component>
 </project>
