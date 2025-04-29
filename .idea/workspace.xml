@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="iniciando projeto">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/ClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/repository/ClienteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/service/ClienteService.java" afterDir="false" />
+    <list default="true" id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="criação de metodo e rota para cadastro de clientes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/model/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Logista.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Logista.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Pessoa.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,31 +44,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ExemploDeployApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/paloma/IdeaProjects/ProjetoPW",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ExemploDeployApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/paloma/IdeaProjects/ProjetoPW&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ExemploDeployApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
@@ -114,7 +104,8 @@
       <workItem from="1745368122919" duration="553000" />
       <workItem from="1745368748008" duration="3423000" />
       <workItem from="1745372387155" duration="222000" />
-      <workItem from="1745887962594" duration="2336000" />
+      <workItem from="1745887962594" duration="3129000" />
+      <workItem from="1745968317638" duration="880000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <option name="closed" value="true" />
@@ -132,14 +123,34 @@
       <option name="project" value="LOCAL" />
       <updated>1745368662090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="criação de metodo e rota para cadastro de clientes">
+      <option name="closed" value="true" />
+      <created>1745890440172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745890440173</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="iniciando projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="iniciando projeto" />
+    <MESSAGE value="criação de metodo e rota para cadastro de clientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação de metodo e rota para cadastro de clientes" />
   </component>
 </project>
