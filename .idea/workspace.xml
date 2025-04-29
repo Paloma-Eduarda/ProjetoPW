@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="iniciando projeto" />
+    <list default="true" id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="iniciando projeto">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/ClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/repository/ClienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/service/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/model/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Logista.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Logista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Pessoa.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,9 +63,10 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.ExemploDeployApplication.executor": "Run",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/paloma/IdeaProjects/ProjetoPW/ExemploDeploy",
+    "last_opened_file_path": "/home/paloma/IdeaProjects/ProjetoPW",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,6 +113,8 @@
       <updated>1745368115635</updated>
       <workItem from="1745368122919" duration="553000" />
       <workItem from="1745368748008" duration="3423000" />
+      <workItem from="1745372387155" duration="222000" />
+      <workItem from="1745887962594" duration="2336000" />
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <option name="closed" value="true" />
