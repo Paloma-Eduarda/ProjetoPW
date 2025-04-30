@@ -4,7 +4,9 @@ package ufrn.br.exemplodeploy.controller;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import ufrn.br.exemplodeploy.repository.ConectaBanco;
 
 import java.io.IOException;
@@ -15,6 +17,15 @@ import java.sql.SQLException;
 
 @Controller
 public class BasicController {
+
+    @RestController
+    public class HomeController {
+
+        @GetMapping("/")
+        public String home() {
+            return "Hello, mundo!";
+        }
+    }
 
     @RequestMapping("/config")
     public void doConfig(HttpServletRequest request, HttpServletResponse response) throws IOException {

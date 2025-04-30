@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="criação de metodo e rota para cadastro de clientes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/application.properties" afterDir="false" />
+=======
+    <list default="true" id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="Implementando as páginas HTML">
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/CadastroClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/CadastroProdutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/CarrinhoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/ListaProdutosAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/ListaProdutosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/pom.xml" afterDir="false" />
+>>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -33,19 +46,29 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Paloma-Eduarda/ProjetoPW.git&quot;,
-    &quot;accountId&quot;: &quot;6d50bfc0-bee0-46ff-a9a0-9f942145bd9f&quot;
+    &quot;accountId&quot;: &quot;be281e81-7c30-41ce-83c1-8bb4f56ae5a8&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2w6hpTl3vf2btyEmCNwIdYpNnbR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+<<<<<<< HEAD
+=======
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Docker.ExemploDeploy/Docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+>>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
@@ -53,10 +76,17 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Spring Boot.ExemploDeployApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/paloma/IdeaProjects/ProjetoPW&quot;,
+=======
+    &quot;Spring Boot.ExemploDeployApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/paloma/IdeaProjects/ProjetoPW/ExemploDeploy&quot;,
+>>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -69,7 +99,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+<<<<<<< HEAD
   <component name="RunManager">
+=======
+  <component name="RunManager" selected="Spring Boot.ExemploDeployApplication">
+>>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
     <configuration name="ExemploDeployApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
         <env name="DATABASE_HOST" value="localhost" />
@@ -85,15 +119,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExemploDeploy/Docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="ExemploDeploy/Docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.ExemploDeploy/Docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="" />
@@ -103,9 +158,16 @@
       <updated>1745368115635</updated>
       <workItem from="1745368122919" duration="553000" />
       <workItem from="1745368748008" duration="3423000" />
+<<<<<<< HEAD
       <workItem from="1745372387155" duration="222000" />
       <workItem from="1745887962594" duration="3129000" />
       <workItem from="1745968317638" duration="880000" />
+=======
+      <workItem from="1745440307895" duration="394000" />
+      <workItem from="1745443156813" duration="4698000" />
+      <workItem from="1745599829065" duration="4268000" />
+      <workItem from="1745888631206" duration="2390000" />
+>>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
     </task>
     <task id="LOCAL-00001" summary="iniciando projeto">
       <option name="closed" value="true" />
@@ -123,6 +185,7 @@
       <option name="project" value="LOCAL" />
       <updated>1745368662090</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00003" summary="criação de metodo e rota para cadastro de clientes">
       <option name="closed" value="true" />
       <created>1745890440172</created>
@@ -132,6 +195,25 @@
       <updated>1745890440173</updated>
     </task>
     <option name="localTasksCounter" value="4" />
+=======
+    <task id="LOCAL-00003" summary="iniciando projeto">
+      <option name="closed" value="true" />
+      <created>1745445925184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745445925184</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementando as páginas HTML">
+      <option name="closed" value="true" />
+      <created>1745639440374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745639440374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+>>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +232,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="iniciando projeto" />
+<<<<<<< HEAD
     <MESSAGE value="criação de metodo e rota para cadastro de clientes" />
     <option name="LAST_COMMIT_MESSAGE" value="criação de metodo e rota para cadastro de clientes" />
+=======
+    <MESSAGE value="Implementando as páginas HTML" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando as páginas HTML" />
+>>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
   </component>
 </project>
