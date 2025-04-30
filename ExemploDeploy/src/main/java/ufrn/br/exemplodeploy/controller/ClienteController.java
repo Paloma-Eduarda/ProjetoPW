@@ -1,25 +1,49 @@
 package ufrn.br.exemplodeploy.controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ufrn.br.exemplodeploy.model.Cliente;
+import ufrn.br.exemplodeploy.repository.ClienteDAO;
 import ufrn.br.exemplodeploy.service.ClienteService;
 
+import java.io.IOException;
+
 @Controller
-@RequestMapping("/clientes")
 public class ClienteController {
-    private final ClienteService clienteService;
+    //private final ClienteService clienteService;
 
-    public ClienteController(ClienteService clienteService) {
-        this.clienteService = clienteService;
-    }
+    private final ClienteDAO clienteDAO = new ClienteDAO();
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
-    @PostMapping
-    public ResponseEntity<Cliente> criarCliente(@RequestBody Cliente cliente) {
-        Cliente novoCliente = clienteService.salvar(cliente);
-        return ResponseEntity.ok(novoCliente);
+
+    @RequestMapping("/cadastro")
+    public void doConfig(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        String nome = req.getParameter("nome");
+        String email = req.getParameter("email");
+        String senha = req.getParameter("senha");
+        String cpf = req.getParameter("cpf");
+
+        // Aqui você chama seu DAO para salvar no banco
+        Cliente cliente = new Cliente(email, nome, senha, cpf);
+        new ClienteDAO().cadastrarCliente(cliente);
+
+        resp.setStatus(HttpServletResponse.SC_CREATED);
+        resp.getWriter().write("Cliente criado com sucesso!");
     }
+//    private final ObjectMapper objectMapper = new ObjectMapper();
+//    public ClienteController(ClienteService clienteService) {
+//        this.clienteService = clienteService;
+//    }
+
+//    @PostMapping
+//    public ResponseEntity<Cliente> criarCliente(@RequestBody Cliente cliente) {
+//        Cliente novoCliente = clienteService.salvar(cliente);
+//        return ResponseEntity.ok(novoCliente);
+//    }
 }

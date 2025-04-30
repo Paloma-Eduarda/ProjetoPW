@@ -1,24 +1,24 @@
 package ufrn.br.exemplodeploy.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 
 @Entity
+@Table(name = "cliente")
 public class Cliente extends Pessoa {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
+
+    @Column(name = "cpf", nullable = false, unique = true)
     private String cpf;
 
     public Cliente() {
     }
 
-    public Cliente(String email, String nome, String senha, Long id, String cpf) {
+    public Cliente(String email, String nome, String senha, String cpf) {
         super(email, nome, senha);
-        this.id = id;
         this.cpf = cpf;
     }
 

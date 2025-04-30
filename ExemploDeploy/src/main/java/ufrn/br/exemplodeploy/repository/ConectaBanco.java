@@ -29,7 +29,6 @@ public class ConectaBanco {
         String username = System.getenv("DATABASE_USERNAME");
         String password = System.getenv("DATABASE_PASSWORD");
         String dbUrl = "jdbc:postgresql://" + dbUri + ':' + dbPort + "/" + dbName + "?serverTimezone=UTC";
-
         return DriverManager.getConnection(dbUrl, username, password);
     }
 }

@@ -4,107 +4,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="criação de metodo e rota para cadastro de clientes">
+    <list default="true" id="2d96cdf5-f45b-42c6-ab6b-2872e985f618" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/application.properties" afterDir="false" />
-=======
-    <list default="true" id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="Implementando as páginas HTML">
-      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/CadastroClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/CadastroProdutoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/CarrinhoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/ListaProdutosAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/ListaProdutosController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExemploDeploy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/pom.xml" afterDir="false" />
->>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/BasicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/BasicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/model/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/repository/ConectaBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/java/ufrn/br/exemplodeploy/repository/ConectaBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/templates/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/src/main/resources/static/cadastro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/templates/cadastro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/templates/cadastroProduto.html" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/templates/cadastroProduto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/controller/BasicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/controller/BasicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/controller/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/controller/ClienteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Logista.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Logista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/model/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/repository/ConectaBanco.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/repository/ConectaBanco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/service/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ExemploDeploy/target/classes/ufrn/br/exemplodeploy/service/ClienteService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Paloma-Eduarda&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Paloma-Eduarda"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Paloma-Eduarda/ProjetoPW.git&quot;,
-    &quot;accountId&quot;: &quot;be281e81-7c30-41ce-83c1-8bb4f56ae5a8&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Paloma-Eduarda/ProjetoPW.git",
+    "accountId": "6d50bfc0-bee0-46ff-a9a0-9f942145bd9f"
   }
-}</component>
-  <component name="KubernetesApiPersistence">{}</component>
-  <component name="KubernetesApiProvider">{
-  &quot;isMigrated&quot;: true
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2w6hpTl3vf2btyEmCNwIdYpNnbR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2wQZliwFVsZmw9l8VMMfDEV2eyg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-<<<<<<< HEAD
-=======
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Docker.ExemploDeploy/Docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
->>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-<<<<<<< HEAD
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ExemploDeployApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/paloma/IdeaProjects/ProjetoPW&quot;,
-=======
-    &quot;Spring Boot.ExemploDeployApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/paloma/IdeaProjects/ProjetoPW/ExemploDeploy&quot;,
->>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ExemploDeployApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-<<<<<<< HEAD
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExemploDeploy/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/ExemploDeploy/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/ExemploDeploy/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ExemploDeploy/src/main/resources/templates/static" />
+    </key>
+  </component>
   <component name="RunManager">
-=======
-  <component name="RunManager" selected="Spring Boot.ExemploDeployApplication">
->>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
-    <configuration name="ExemploDeployApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="ExemploDeployApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <envs>
         <env name="DATABASE_HOST" value="localhost" />
         <env name="DATABASE_PORT" value="5432" />
@@ -115,129 +93,52 @@
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="ExemploDeploy" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ufrn.br.exemplodeploy.ExemploDeployApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ufrn.br.exemplodeploy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="true" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploDeploy/Docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="envFilePath" value="" />
-          <option name="sourceFilePath" value="ExemploDeploy/Docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.ExemploDeploy/Docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Spring Boot.ExemploDeployApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de5d298c-6e99-4b63-857d-b8e50f3570ad" name="Changes" comment="" />
-      <created>1745368115635</created>
+      <changelist id="2d96cdf5-f45b-42c6-ab6b-2872e985f618" name="Changes" comment="" />
+      <created>1745975915366</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1745368115635</updated>
-      <workItem from="1745368122919" duration="553000" />
-      <workItem from="1745368748008" duration="3423000" />
-<<<<<<< HEAD
-      <workItem from="1745372387155" duration="222000" />
-      <workItem from="1745887962594" duration="3129000" />
-      <workItem from="1745968317638" duration="880000" />
-=======
-      <workItem from="1745440307895" duration="394000" />
-      <workItem from="1745443156813" duration="4698000" />
-      <workItem from="1745599829065" duration="4268000" />
-      <workItem from="1745888631206" duration="2390000" />
->>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
+      <updated>1745975915366</updated>
+      <workItem from="1745975920477" duration="3589000" />
     </task>
-    <task id="LOCAL-00001" summary="iniciando projeto">
-      <option name="closed" value="true" />
-      <created>1745368398662</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1745368398662</updated>
-    </task>
-    <task id="LOCAL-00002" summary="iniciando projeto">
-      <option name="closed" value="true" />
-      <created>1745368662089</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1745368662090</updated>
-    </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00003" summary="criação de metodo e rota para cadastro de clientes">
-      <option name="closed" value="true" />
-      <created>1745890440172</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1745890440173</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
-=======
-    <task id="LOCAL-00003" summary="iniciando projeto">
-      <option name="closed" value="true" />
-      <created>1745445925184</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1745445925184</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Implementando as páginas HTML">
-      <option name="closed" value="true" />
-      <created>1745639440374</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1745639440374</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
->>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="iniciando projeto" />
-<<<<<<< HEAD
-    <MESSAGE value="criação de metodo e rota para cadastro de clientes" />
-    <option name="LAST_COMMIT_MESSAGE" value="criação de metodo e rota para cadastro de clientes" />
-=======
-    <MESSAGE value="Implementando as páginas HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementando as páginas HTML" />
->>>>>>> d2b936f15fcea4136ceb85360b7ff2dd0439ba21
   </component>
 </project>
