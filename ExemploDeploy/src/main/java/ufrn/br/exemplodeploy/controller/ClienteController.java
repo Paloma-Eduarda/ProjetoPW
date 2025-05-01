@@ -36,6 +36,8 @@ public class ClienteController {
         resp.setStatus(HttpServletResponse.SC_CREATED);
         resp.getWriter().write("Cliente criado com sucesso!");
     }
+
+
 //    private final ObjectMapper objectMapper = new ObjectMapper();
 //    public ClienteController(ClienteService clienteService) {
 //        this.clienteService = clienteService;
