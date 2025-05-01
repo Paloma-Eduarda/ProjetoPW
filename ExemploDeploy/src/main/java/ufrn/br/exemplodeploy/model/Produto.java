@@ -12,14 +12,14 @@ public class Produto {
     private Long id;
     private String nome;
     private String descricao;
-    private Double preco;
+    private double preco;
     private int quantidade;
 
     public Produto() {
 
     }
 
-    public Produto(String descricao, String nome, Double preco, int quantidade) {
+    public Produto(String descricao, String nome, double preco, int quantidade) {
         this.descricao = descricao;
         this.nome = nome;
         this.preco = preco;
@@ -50,11 +50,11 @@ public class Produto {
         this.nome = nome;
     }
 
-    public Double getPreco() {
+    public double getPreco() {
         return preco;
     }
 
-    public void setPreco(Double preco) {
+    public void setPreco(double preco) {
         this.preco = preco;
     }
 
