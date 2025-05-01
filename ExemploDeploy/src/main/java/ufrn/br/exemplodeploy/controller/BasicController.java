@@ -21,6 +21,11 @@ import java.sql.SQLException;
 @Controller
 public class BasicController {
 
+    @GetMapping("/")
+    public String mostrarPaginaInicial() {
+        return "index"; // Isso carrega index.html
+    }
+
     @RequestMapping("/config")
     public void cadastrarCliente(HttpServletRequest request, HttpServletResponse response) throws IOException {
         Connection con = null;
