@@ -5,22 +5,50 @@ import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import ufrn.br.exemplodeploy.model.Cliente;
 import ufrn.br.exemplodeploy.model.Produto;
 import ufrn.br.exemplodeploy.repository.ClienteDAO;
 import ufrn.br.exemplodeploy.repository.ProdutoDAO;
+import ufrn.br.exemplodeploy.service.ProdutoService;
 
 import java.io.IOException;
+import java.util.List;
 
 @Controller
+@RequestMapping("/produto")
 public class ListaProdutosAdminController {
 
-    @GetMapping("/produtos/admin")
-    public String listaProdutosAdminPage() {
-        return "ListaProdutosAdmin"; // templates/ListaProdutosAdmin.html
+    private final ProdutoService produtoService;
+
+    public ListaProdutosAdminController() {
+        this.produtoService = new ProdutoService(); // Pode ser injetado por Spring
     }
 
-    @RequestMapping("/cadastrarProduto")
+    @RequestMapping(method = RequestMethod.GET)
+    public void listarProdutos(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        List<Produto> produtos = produtoService.listarProdutos();
+
+        response.setContentType("text/html");
+        response.getWriter().println("<html><body>");
+        response.getWriter().println("<h1>Lista de Produtos</h1>");
+        response.getWriter().println("<form method='POST' action='/produto'>");
+        response.getWriter().println("Nome: <input type='text' name='nome'><br>");
+        response.getWriter().println("Descrição: <input type='text' name='descricao'><br>");
+        response.getWriter().println("Preço: <input type='text' name='preco'><br>");
+        response.getWriter().println("<button type='submit'>Cadastrar Produto</button>");
+        response.getWriter().println("</form>");
+        response.getWriter().println("<ul>");
+
+        for (Produto produto : produtos) {
+            response.getWriter().println("<li>" + produto.getId() + " - " + produto.getNome() + " - " + produto.getDescricao() + " - R$" + produto.getPreco() + "</li>");
+        }
+
+        response.getWriter().println("</ul>");
+        response.getWriter().println("</body></html>");
+    }
+
+    @RequestMapping(method = RequestMethod.POST)
     public void doConfig(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String nome = req.getParameter("nome");
         String descricao = req.getParameter("descricao");
