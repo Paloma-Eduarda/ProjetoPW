@@ -37,6 +37,27 @@ public class ClienteController {
         resp.getWriter().write("Cliente criado com sucesso!");
     }
 
+    @RequestMapping("/login")
+    public void login(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        String email = req.getParameter("email");
+        String senha = req.getParameter("senha");
+
+        Cliente cliente = clienteDAO.buscarPorEmailESenha(email, senha);
+
+        if (cliente != null) {
+            req.getSession().setAttribute("clienteLogado", cliente);
+            resp.sendRedirect("/listaProdutos"); // redirecionar para a página após login
+        } else {
+            resp.getWriter().write("Login inválido");
+            resp.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+        }
+    }
+    @RequestMapping("/logout")
+    public void logout(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        req.getSession().invalidate(); // encerra a sessão
+        resp.sendRedirect("/login-form"); // redireciona para a tela de login
+    }
+
 
 //    private final ObjectMapper objectMapper = new ObjectMapper();
 //    public ClienteController(ClienteService clienteService) {
