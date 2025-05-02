@@ -31,13 +31,7 @@ public class ListaProdutosAdminController {
 
         response.setContentType("text/html");
         response.getWriter().println("<html><body>");
-        response.getWriter().println("<h1>Lista de Produtos</h1>");
-        response.getWriter().println("<form method='POST' action='/produto'>");
-        response.getWriter().println("Nome: <input type='text' name='nome'><br>");
-        response.getWriter().println("Descrição: <input type='text' name='descricao'><br>");
-        response.getWriter().println("Preço: <input type='text' name='preco'><br>");
-        response.getWriter().println("<button type='submit'>Cadastrar Produto</button>");
-        response.getWriter().println("</form>");
+        response.getWriter().println("<h1>Lista de Produtos</h1>");;
         response.getWriter().println("<ul>");
 
         for (Produto produto : produtos) {
@@ -48,7 +42,7 @@ public class ListaProdutosAdminController {
         response.getWriter().println("</body></html>");
     }
 
-    @RequestMapping(method = RequestMethod.POST)
+    @RequestMapping(value = {"cadastrarProduto"}, method = RequestMethod.POST)
     public void doConfig(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String nome = req.getParameter("nome");
         String descricao = req.getParameter("descricao");
