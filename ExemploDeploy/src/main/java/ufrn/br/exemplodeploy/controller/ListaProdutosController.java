@@ -46,6 +46,7 @@ public class ListaProdutosController {
         }
 
         response.getWriter().println("</ul>");
+        response.getWriter().println("<br><a href='/carrinho'>Ver Carrinho</a>");
         response.getWriter().println("</body></html>");
     }
     @RequestMapping(value = "/adicionar", method = RequestMethod.POST)
