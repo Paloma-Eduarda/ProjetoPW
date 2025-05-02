@@ -29,5 +29,14 @@ public class ProdutoService {
     public List<Produto> listarProdutos() {
         return produtoDAO.listarProdutos();
     }
+    public Produto getProdutoById(int id) {
+        List<Produto> produtos = listarProdutos();
+        for (Produto produto : produtos) {
+            if (produto.getId() == id) {
+                return produto;
+            }
+        }
+        return null;
+    }
 }
 

@@ -22,7 +22,7 @@ public class ListaProdutosAdminController {
     private final ProdutoService produtoService;
 
     public ListaProdutosAdminController() {
-        this.produtoService = new ProdutoService(); // Pode ser injetado por Spring
+        this.produtoService = new ProdutoService();
     }
 
     @RequestMapping(method = RequestMethod.GET)
