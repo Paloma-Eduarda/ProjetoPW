@@ -7,21 +7,27 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ufrn.br.exemplodeploy.model.Cliente;
+import ufrn.br.exemplodeploy.model.Logista;
+import ufrn.br.exemplodeploy.repository.ClienteDAO;
+import ufrn.br.exemplodeploy.repository.LogistaDAO;
 
 import java.io.IOException;
 
 @Controller
 public class LoginLogistaController {
-    @RequestMapping("/login")
+
+    private final LogistaDAO logistaDAO = new LogistaDAO();
+
+    @RequestMapping("/login-lojista")
     public void login(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        String email = req.getParameter("email");
+        String email = req.getParameter("email_corporativo");
         String senha = req.getParameter("senha");
 
-        Cliente cliente = clienteDAO.buscarPorEmailESenha(email, senha);
+        Logista logista = logistaDAO.buscarPorEmailESenha(email, senha);
 
-        if (cliente != null) {
-            req.getSession().setAttribute("clienteLogado", cliente);
-            resp.sendRedirect("/produtos");
+        if (logista != null) {
+            req.getSession().setAttribute("logistaLogado", logista);
+            resp.sendRedirect("/produto");
         } else {
             resp.getWriter().write("Login inválido");
             resp.setStatus(HttpServletResponse.SC_UNAUTHORIZED);

@@ -16,7 +16,6 @@ import java.io.IOException;
 
 @Controller
 public class ClienteController {
-    //private final ClienteService clienteService;
 
     private final ClienteDAO clienteDAO = new ClienteDAO();
     private final ObjectMapper objectMapper = new ObjectMapper();
@@ -29,7 +28,6 @@ public class ClienteController {
         String senha = req.getParameter("senha");
         String cpf = req.getParameter("cpf");
 
-        // Aqui você chama seu DAO para salvar no banco
         Cliente cliente = new Cliente(email, nome, senha, cpf);
         new ClienteDAO().cadastrarCliente(cliente);
 

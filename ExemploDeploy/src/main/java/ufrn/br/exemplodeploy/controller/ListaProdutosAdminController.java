@@ -6,9 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import ufrn.br.exemplodeploy.model.Cliente;
 import ufrn.br.exemplodeploy.model.Produto;
-import ufrn.br.exemplodeploy.repository.ClienteDAO;
 import ufrn.br.exemplodeploy.repository.ProdutoDAO;
 import ufrn.br.exemplodeploy.service.ProdutoService;
 
@@ -39,6 +37,8 @@ public class ListaProdutosAdminController {
         }
 
         response.getWriter().println("</ul>");
+        response.getWriter().println("<br><a href='/cadastroProduto.html'>Cadastrar Produtos</a>");
+        response.getWriter().println("<br><a href='/logout'>sair da pagina</a>");
         response.getWriter().println("</body></html>");
     }
 
@@ -53,7 +53,7 @@ public class ListaProdutosAdminController {
         new ProdutoDAO().cadastrarProduto(produto);
 
         resp.setStatus(HttpServletResponse.SC_CREATED);
-        resp.getWriter().write("Produto cadastro com sucesso!");
+        resp.sendRedirect("/produto");
     }
 
 }
