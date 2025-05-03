@@ -46,7 +46,7 @@ public class ClienteController {
 
         if (cliente != null) {
             req.getSession().setAttribute("clienteLogado", cliente);
-            resp.sendRedirect("/listaProdutos"); // redirecionar para a página após login
+            resp.sendRedirect("/produtos");
         } else {
             resp.getWriter().write("Login inválido");
             resp.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
@@ -54,19 +54,8 @@ public class ClienteController {
     }
     @RequestMapping("/logout")
     public void logout(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        req.getSession().invalidate(); // encerra a sessão
-        resp.sendRedirect("/login-form"); // redireciona para a tela de login
+        req.getSession().invalidate();
+        resp.sendRedirect("/login.html");
     }
 
-
-//    private final ObjectMapper objectMapper = new ObjectMapper();
-//    public ClienteController(ClienteService clienteService) {
-//        this.clienteService = clienteService;
-//    }
-
-//    @PostMapping
-//    public ResponseEntity<Cliente> criarCliente(@RequestBody Cliente cliente) {
-//        Cliente novoCliente = clienteService.salvar(cliente);
-//        return ResponseEntity.ok(novoCliente);
-//    }
 }
